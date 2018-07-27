@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.279.1",
+    "http": "^0.0.0",
+    "path": "^0.12.7"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+	"Records": [{
+		"cf": {
+			"config": {
+				"distributionDomainName": "123.cloudfront.net",
+				"distributionId": "",
+				"eventType": "origin-request"
+			},
+			"request": {
+				"clientIp": "xxx.xxx.xxx.xxx",
+				"headers": {
+					"accept-encoding": [{
+						"key": "Accept-Encoding",
+						"value": "gzip"
+					}],
+					"cache-control": [{
+						"key": "Cache-Control",
+						"value": "max-age=0"
+					}],
+					"host": [{
+						"key": "Host",
+						"value": ""
+					}],
+					"upgrade-insecure-requests": [{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					}],
+					"user-agent": [{
+						"key": "User-Agent",
+						"value": "Amazon CloudFront"
+					}],
+					"via": [{
+						"key": "Via",
+						"value": "2.0"
+					}],
+					"x-forwarded-for": [{
+						"key": "X-Forwarded-For",
+						"value": "xxx.xxx.xxx.xxx"
+					}]
+				},
+				"method": "GET",
+				"origin": {
+					"custom": {
+						"customHeaders": {},
+						"domainName": "",
+						"keepaliveTimeout": 5,
+						"path": "",
+						"port": 80,
+						"protocol": "http",
+						"readTimeout": 30,
+						"sslProtocols": ["TLSv1", "TLSv1.1", "TLSv1.2"]
+					}
+				},
+				"querystring": "",
+				"uri": "/"
+			}
+		}
+	}]
+}
